@@ -5,7 +5,7 @@
 
 // CENTRAL CONFIGURATION
 const PBS_CONFIG = {
-    calendarUrl: 'https://calendar.app.google/sLTP5zKM18GkvwAG6',
+    calendarUrl: 'https://calendar.app.google/e94yp4j3eeGRrSXL6',
     contactEmail: 'hello@paulbizsolutions.com',
     companyName: 'Paul Business Solutions'
 };
