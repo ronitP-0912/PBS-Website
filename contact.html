@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Book a Discovery Call | Paul Business Solutions</title>
+    <meta name="description" content="Get in touch with Paul Business Solutions. Schedule a discovery call via Google Calendar or send us an inquiry about your CRM, AI, and workflow automation needs.">
+    <link rel="canonical" href="https://paulbizsolutions.com/contact.html">
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://paulbizsolutions.com/contact.html">
+    <meta property="og:title" content="Contact Us | Paul Business Solutions">
+    <meta property="og:description" content="Schedule a discovery call or send an inquiry to Paul Business Solutions.">
+    <meta property="og:image" content="https://paulbizsolutions.com/assets/images/logo.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- HEADER / NAVIGATION -->
+    <header>
+        <div class="container navbar">
+            <a href="index.html" class="logo">
+                <img src="assets/images/icon.png" alt="Paul Business Solutions Logo">
+            </a>
+
+            <nav class="nav-menu" aria-label="Main Navigation">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="services.html" class="nav-link">Services</a>
+                <a href="industries.html" class="nav-link">Industries</a>
+                <a href="case-studies.html" class="nav-link">Case Studies</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+            </nav>
+
+            <a href="#" class="btn btn-primary js-calendar-btn">Book a Discovery Call</a>
+
+            <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- MOBILE NAVIGATION DRAWER -->
+    <div class="mobile-nav" aria-label="Mobile Navigation">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="services.html" class="nav-link">Services</a>
+        <a href="industries.html" class="nav-link">Industries</a>
+        <a href="case-studies.html" class="nav-link">Case Studies</a>
+        <a href="about.html" class="nav-link">About</a>
+        <a href="contact.html" class="nav-link active">Contact</a>
+        <a href="#" class="btn btn-primary js-calendar-btn" style="margin-top: 16px;">Book a Discovery Call</a>
+    </div>
+
+    <!-- HERO -->
+    <section class="case-study-hero text-center">
+        <div class="container">
+            <span class="hero-badge" style="background: rgba(255,255,255,0.15); color: #fff;">
+                GET IN TOUCH
+            </span>
+            <h1 style="color: #fff; margin-top: 16px;">Let's Build a Smarter System</h1>
+            <p style="color: #94A3B8; max-width: 700px; margin: 16px auto 0; font-size: 1.15rem;">
+                Have questions about CRM implementation, workflow automation, or ongoing AMC support? Schedule a consultation or send us a message.
+            </p>
+        </div>
+    </section>
+
+    <!-- CONTACT GRID SECTION -->
+    <section class="section-light">
+        <div class="container">
+            <div class="contact-grid">
+
+                <!-- CONTACT FORM -->
+                <div class="contact-card">
+                    <h3 style="margin-bottom: 8px;">Send an Inquiry</h3>
+                    <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 28px;">Fill out the form below and our systems team will respond within one business day.</p>
+                    
+                    <form action="https://formsubmit.co/hello@paulbizsolutions.com" method="POST">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="hidden" name="_subject" value="New PBS Website Consultation Inquiry">
+
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" class="form-control" placeholder="e.g. John Doe" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="company">Company Name *</label>
+                            <input type="text" id="company" name="company" class="form-control" placeholder="e.g. Apex Enterprises" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Business Email *</label>
+                            <input type="email" id="email" name="email" class="form-control" placeholder="e.g. john@company.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="phone">Phone / WhatsApp Number</label>
+                            <input type="tel" id="phone" name="phone" class="form-control" placeholder="e.g. +1 (555) 000-0000">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">How can we help your business?</label>
+                            <textarea id="message" name="message" rows="4" class="form-control" placeholder="Tell us about your current software bottlenecks, CRM goals, or automation needs..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 8px;">
+                            <i class="fa-solid fa-paper-plane"></i> Submit Inquiry
+                        </button>
+                    </form>
+                </div>
+
+                <!-- DIRECT CONTACT INFO & GOOGLE CALENDAR CTA -->
+                <div style="display: flex; flex-direction: column; gap: 30px;">
+                    
+                    <!-- CALENDLY / GOOGLE CALENDAR CARD -->
+                    <div class="contact-card" style="background: var(--primary); color: #fff;">
+                        <h3 style="color: #fff; margin-bottom: 12px;">Instant Calendar Booking</h3>
+                        <p style="color: #94A3B8; font-size: 0.95rem; margin-bottom: 24px;">Skip the back-and-forth emails and pick a time directly on our Google Calendar schedule.</p>
+                        
+                        <a href="#" class="btn btn-primary js-calendar-btn" style="width: 100%; background: var(--secondary);">
+                            <i class="fa-solid fa-calendar-days"></i> Open Google Calendar Schedule
+                        </a>
+                    </div>
+
+                    <!-- DIRECT CONTACT LIST -->
+                    <div class="contact-card">
+                        <h3 style="margin-bottom: 24px;">Direct Channels</h3>
+                        <div class="contact-info-list">
+                            <div class="contact-info-item">
+                                <i class="fa-solid fa-envelope"></i>
+                                <div>
+                                    <strong>Business Email</strong>
+                                    <p style="font-size: 0.9rem;"><a href="mailto:hello@paulbizsolutions.com">hello@paulbizsolutions.com</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <i class="fa-brands fa-whatsapp"></i>
+                                <div>
+                                    <strong>WhatsApp / Phone</strong>
+                                    <p style="font-size: 0.9rem;"><a href="https://wa.me/919000000000" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <i class="fa-solid fa-clock"></i>
+                                <div>
+                                    <strong>Working Hours</strong>
+                                    <p style="font-size: 0.9rem; color: var(--text-muted);">Monday – Saturday<br>By Appointment Only</p>
+                                </div>
+                            </div>
+
+                            <div class="contact-info-item">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <div>
+                                    <strong>Office Location</strong>
+                                    <p style="font-size: 0.9rem; color: var(--text-muted);">Kolkata, West Bengal, India<br>(Serving Clients Worldwide)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- GOOGLE MAPS PLACEHOLDER CONTAINER -->
+    <section style="padding: 0 0 90px;">
+        <div class="container">
+            <div class="contact-card" style="padding: 24px; text-align: center; background: var(--card-light);">
+                <i class="fa-solid fa-map-location-dot" style="font-size: 2.5rem; color: var(--secondary); margin-bottom: 12px;"></i>
+                <h3>Google Maps Integration</h3>
+                <p style="color: var(--text-muted); font-size: 0.9rem;">Interactive map container configured for Paul Business Solutions headquarters (Kolkata, India).</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <img src="assets/images/footerlogo.png" alt="Paul Business Solutions" class="footer-logo">
+                <p>Paul Business Solutions designs smarter business systems, CRM implementations, workflow automations, and AI integrations for growing organizations.</p>
+            </div>
+            <div>
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="industries.html">Industries</a></li>
+                    <li><a href="case-studies.html">Case Studies</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Legal</h4>
+                <ul>
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Use</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact Us</h4>
+                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:hello@paulbizsolutions.com">hello@paulbizsolutions.com</a></p>
+                <p style="margin-top: 10px;"><i class="fa-solid fa-location-dot"></i> Kolkata, India</p>
+                <p style="margin-top: 4px; font-size: 0.8rem; color: #64748B;">Serving clients worldwide</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            © 2026 Paul Business Solutions. All Rights Reserved.
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
