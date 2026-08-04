@@ -5,7 +5,7 @@
 
 // CENTRAL CONFIGURATION
 const PBS_CONFIG = {
-    calendarUrl: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1L8l9jQ_sample', // Easily configurable Google Calendar Appointment Schedule URL
+    calendarUrl: 'https://calendar.google.com/calendar/appointments/schedules/AcZssZ1L8l9jQ_sample',
     contactEmail: 'hello@paulbizsolutions.com',
     companyName: 'Paul Business Solutions'
 };
@@ -19,9 +19,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // 3. ACCORDION / FAQ COMPONENT
     initAccordions();
-
-    // 4. SCROLL REVEAL ANIMATIONS
-    initScrollAnimations();
 });
 
 /**
@@ -53,7 +50,6 @@ function initMobileNav() {
                 : '<i class="fa-solid fa-bars"></i>';
         });
 
-        // Close mobile drawer when clicking a link
         const mobileLinks = mobileNav.querySelectorAll('.nav-link, .btn');
         mobileLinks.forEach(link => {
             link.addEventListener('click', () => {
@@ -75,42 +71,14 @@ function initAccordions() {
             const item = header.parentElement;
             const isOpen = item.classList.contains('active');
 
-            // Close all items in current accordion container
             const accordion = item.closest('.accordion');
             if (accordion) {
                 accordion.querySelectorAll('.accordion-item').forEach(i => i.classList.remove('active'));
             }
 
-            // Toggle clicked item
             if (!isOpen) {
                 item.classList.add('active');
             }
         });
     });
-}
-
-/**
- * Intersection Observer for subtle scroll reveal
- */
-function initScrollAnimations() {
-    const animateElements = document.querySelectorAll('.trust-card, .industry-card, .service-card, .testimonial-card, .case-study-card');
-    
-    if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                    observer.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.1 });
-
-        animateElements.forEach(el => {
-            el.style.opacity = '0';
-            el.style.transform = 'translateY(20px)';
-            el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-            observer.observe(el);
-        });
-    }
 }
