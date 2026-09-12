@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# macOS metadata
+Icon?
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
