@@ -29,7 +29,7 @@
     --transition-fast: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-smooth: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
     --font-main: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    --header-height: 80px;
+    --header-height: 88px;
 }
 
 *, *::before, *::after {
@@ -232,8 +232,14 @@ section {
 }
 
 .logo img {
-    height: 42px;
+    height: 65px;
     width: auto;
+    object-fit: contain;
+    transition: transform var(--transition-fast);
+}
+
+.logo:hover img {
+    transform: scale(1.02);
 }
 
 .nav-links {
@@ -714,7 +720,9 @@ textarea.form-control {
 }
 
 .footer-logo {
-    height: 38px;
+    height: 60px;
+    width: auto;
+    object-fit: contain;
     margin-bottom: 16px;
 }
 
@@ -798,6 +806,12 @@ textarea.form-control {
 }
 
 @media (max-width: 768px) {
+    .logo img {
+        height: 54px;
+    }
+    .footer-logo {
+        height: 50px;
+    }
     .nav-links, .nav-container .btn {
         display: none;
     }
