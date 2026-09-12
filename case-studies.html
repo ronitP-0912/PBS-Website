@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Case Studies & Results | Paul Business Solutions</title>
-    <meta name="description" content="Discover how Paul Business Solutions transformed Divine Fellowship School and other organizations with custom CRM implementations, Google Workspace integration, and workflow automation.">
+    <title>Case Studies & Work | Paul Business Solutions</title>
+    <meta name="description" content="Explore real client case studies showing how PBS builds digital systems, custom management tools, and workflow automation for growing organizations.">
     <link rel="canonical" href="https://paulbizsolutions.com/case-studies.html">
     
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://paulbizsolutions.com/case-studies.html">
-    <meta property="og:title" content="Case Studies & Digital Transformation | Paul Business Solutions">
-    <meta property="og:description" content="Real-world case studies demonstrating business system optimization and measurable ROI.">
-    <meta property="og:image" content="https://paulbizsolutions.com/assets/images/logo.png">
+    <meta property="og:title" content="Case Studies | Paul Business Solutions">
+    <meta property="og:description" content="Real system implementations and digital transformation case studies.">
+    <meta property="og:image" content="assets/images/logo.png">
 
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/icon.png" type="image/png">
+    
+    <!-- Google Fonts & Font Awesome -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -22,14 +26,14 @@
 </head>
 <body>
 
-    <!-- HEADER / NAVIGATION -->
-    <header>
-        <div class="container navbar">
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="container nav-container">
             <a href="index.html" class="logo">
-                <img src="assets/images/icon.png" alt="Paul Business Solutions Logo">
+                <img src="assets/images/logo.png" alt="Paul Business Solutions Logo">
             </a>
-
-            <nav class="nav-menu" aria-label="Main Navigation">
+            
+            <nav class="nav-links">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="services.html" class="nav-link">Services</a>
                 <a href="industries.html" class="nav-link">Industries</a>
@@ -40,103 +44,93 @@
 
             <a href="#" class="btn btn-primary js-calendar-btn">Book a Discovery Call</a>
 
-            <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
+
+        <div class="mobile-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="industries.html" class="nav-link">Industries</a>
+            <a href="case-studies.html" class="nav-link active">Case Studies</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="#" class="btn btn-primary js-calendar-btn">Book a Discovery Call</a>
+        </div>
     </header>
 
-    <!-- MOBILE NAVIGATION DRAWER -->
-    <div class="mobile-nav" aria-label="Mobile Navigation">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="industries.html" class="nav-link">Industries</a>
-        <a href="case-studies.html" class="nav-link active">Case Studies</a>
-        <a href="about.html" class="nav-link">About</a>
-        <a href="contact.html" class="nav-link">Contact</a>
-        <a href="#" class="btn btn-primary js-calendar-btn" style="margin-top: 16px;">Book a Discovery Call</a>
-    </div>
-
-    <!-- HERO -->
-    <section class="case-study-hero text-center">
+    <!-- HERO SECTION -->
+    <section class="section-light text-center" style="padding: 64px 0;">
         <div class="container">
-            <span class="hero-badge" style="background: rgba(255,255,255,0.15); color: #fff;">
-                PROVEN RESULTS
-            </span>
-            <h1 style="color: #fff; margin-top: 16px;">Client Case Studies & Transformations</h1>
-            <p style="color: #94A3B8; max-width: 700px; margin: 16px auto 0; font-size: 1.15rem;">
-                Explore how we turn operational friction and scattered spreadsheets into unified, automated business systems.
-            </p>
+            <span class="section-tag">REAL CLIENT WORK</span>
+            <h1>System Implementation Case Studies</h1>
+            <p class="section-subtitle">Read how PBS helps organizations move away from paper chaos and fragmented tools into integrated digital systems.</p>
         </div>
     </section>
 
-    <!-- FEATURED CASE STUDY (REUSABLE COMPONENT ENGINE) -->
-    <section class="section-light">
+    <!-- CASE STUDY FEATURE SECTION -->
+    <section>
         <div class="container">
-            <div class="text-center" style="margin-bottom: 40px;">
-                <span class="section-tag">FEATURED TRANSFORMATION</span>
-                <h2>Divine Fellowship School Digital Transformation</h2>
-            </div>
-
+            
+            <!-- CASE STUDY: DIVINE FELLOWSHIP SCHOOL -->
             <div class="case-study-card">
                 <div class="case-study-grid">
-                    <div class="case-study-content">
-                        <div class="meta-tags">
-                            <span class="meta-tag">Education</span>
-                            <span class="meta-tag">Google Workspace</span>
-                            <span class="meta-tag">CRM & Automation</span>
-                            <span class="meta-tag">Timeline: 6 Weeks</span>
-                        </div>
-                        <h3>Divine Fellowship School</h3>
-                        
-                        <div style="margin: 20px 0;">
+                    
+                    <!-- Case Study Main Content -->
+                    <div class="case-study-body">
+                        <span class="section-tag">EDUCATION & ADMINISTRATION</span>
+                        <h2>Divine Fellowship School</h2>
+                        <p style="font-weight: 600; color: var(--dark); margin-bottom: 20px;">Digital Administrative & Admission System Implementation</p>
+
+                        <div style="margin-bottom: 20px;">
                             <h4 style="margin-bottom: 8px; font-size: 1.05rem;">The Challenge</h4>
-                            <p style="font-size: 0.95rem; color: var(--text-muted);">
-                                The school managed admissions inquiries, parent communications, and student records across legacy paper registers and isolated Excel spreadsheets. High administrative lag caused delayed responses and zero real-time visibility for the board.
-                            </p>
+                            <p style="font-size: 0.9rem;">The institution relied heavily on manual paperwork, paper forms, and disjointed records for student admissions. Staff struggled with lost inquiries, unorganized guardian records, and intense administrative overhead during enrollment seasons.</p>
                         </div>
 
-                        <div style="margin: 20px 0;">
-                            <h4 style="margin-bottom: 8px; font-size: 1.05rem;">Solutions Delivered</h4>
-                            <ul class="service-deliverables">
-                                <li><i class="fa-solid fa-check"></i> Unified Admissions CRM with instant website lead integration</li>
-                                <li><i class="fa-solid fa-check"></i> Google Workspace for Education migration & security rules</li>
-                                <li><i class="fa-solid fa-check"></i> Automated Parent SMS/Email updates & fee reminders</li>
-                                <li><i class="fa-solid fa-check"></i> Interactive administrative dashboard for leadership</li>
+                        <div style="margin-bottom: 20px;">
+                            <h4 style="margin-bottom: 8px; font-size: 1.05rem;">Requirements</h4>
+                            <ul class="pillar-list" style="margin: 8px 0 0 0;">
+                                <li><i class="fa-solid fa-check"></i> Digital student admission and onboarding workflow</li>
+                                <li><i class="fa-solid fa-check"></i> Centralized database for student and guardian records</li>
+                                <li><i class="fa-solid fa-check"></i> Automated email notifications for status updates</li>
+                                <li><i class="fa-solid fa-check"></i> Clean staff workflow to eliminate paper tracking</li>
                             </ul>
                         </div>
 
-                        <div style="margin: 20px 0;">
+                        <div style="margin-bottom: 20px;">
+                            <h4 style="margin-bottom: 8px; font-size: 1.05rem;">The Delivered Solution</h4>
+                            <p style="font-size: 0.9rem;">PBS audited the school's paper process and engineered an integrated administrative CRM system. The solution digitized student registration, created a role-based administrative portal for staff, and implemented automated notifications for inquiry updates.</p>
+                        </div>
+
+                        <div style="margin-bottom: 20px;">
                             <h4 style="margin-bottom: 8px; font-size: 1.05rem;">Technologies Used</h4>
                             <p style="font-size: 0.85rem; color: var(--secondary); font-weight: 600;">
-                                Google Workspace • Make (Integromat) • Custom CRM Architecture • Automated Email Triggers
+                                Custom Administrative Database • Automated Notification Engine • Role-Based Staff Dashboard • Google Workspace Integration
                             </p>
                         </div>
-
-                        <a href="assets/images/logo.png" download class="btn btn-secondary" style="margin-top: 16px;">
-                            <i class="fa-solid fa-file-pdf"></i> Download PDF Summary
-                        </a>
                     </div>
 
+                    <!-- Case Study Sidebar / Verified Outcome -->
                     <div class="case-study-media">
-                        <h3 style="margin-bottom: 24px; text-align: center;">Key Project Impact</h3>
+                        <h3 style="margin-bottom: 20px; text-align: center;">Verified Outcomes</h3>
                         
-                        <div class="case-results-grid" style="width: 100%;">
-                            <div class="case-result-item">
-                                <strong>100%</strong>
-                                <span>Digital Onboarding</span>
+                        <div style="display: grid; gap: 14px; width: 100%;">
+                            <div style="background: var(--white); border: 1px solid var(--border); padding: 16px; border-radius: var(--radius-sm);">
+                                <strong style="color: var(--primary); font-size: 0.95rem;">Paperless Admissions</strong>
+                                <p style="font-size: 0.82rem; color: var(--slate); margin-top: 2px;">Fully digitized applicant logging and record capture.</p>
                             </div>
-                            <div class="case-result-item">
-                                <strong>15 hrs</strong>
-                                <span>Weekly Admin Saved</span>
+                            <div style="background: var(--white); border: 1px solid var(--border); padding: 16px; border-radius: var(--radius-sm);">
+                                <strong style="color: var(--primary); font-size: 0.95rem;">Centralized Records</strong>
+                                <p style="font-size: 0.82rem; color: var(--slate); margin-top: 2px;">Single source of truth for student & guardian files.</p>
                             </div>
-                            <div class="case-result-item">
-                                <strong>0 Lost</strong>
-                                <span>Admission Leads</span>
+                            <div style="background: var(--white); border: 1px solid var(--border); padding: 16px; border-radius: var(--radius-sm);">
+                                <strong style="color: var(--primary); font-size: 0.95rem;">Automated Follow-ups</strong>
+                                <p style="font-size: 0.82rem; color: var(--slate); margin-top: 2px;">Instant email confirmation for parents and staff.</p>
                             </div>
                         </div>
 
-                        <div class="testimonial-card" style="margin-top: 28px; width: 100%; background: #F8FAFC;">
+                        <div class="testimonial-card" style="margin-top: 24px; background: var(--white);">
                             <p class="testimonial-text" style="font-size: 0.85rem;">
                                 "Paul Business Solutions completely digitized our administrative foundation. Our staff moved away from paper chaos into a modern, easy-to-use system that keeps our entire institution organized."
                             </p>
@@ -149,53 +143,52 @@
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
+
         </div>
     </section>
 
     <!-- TESTIMONIALS SECTION -->
-    <section>
+    <section class="section-light">
         <div class="container">
             <div class="text-center">
                 <span class="section-tag">TESTIMONIALS</span>
                 <h2>What Our Clients Say</h2>
-                <p class="section-subtitle">Read feedback from business owners and managers who transformed their operations with PBS.</p>
+                <p class="section-subtitle">Read feedback from business leaders who transformed their operations with PBS.</p>
             </div>
 
-            <div class="testimonials-grid">
+            <div class="pillars-grid">
                 <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">"The CRM setup and workflow automations built by PBS gave us complete control over our field service operations. Their training sessions made onboarding seamless."</p>
-                    <div class="testimonial-author">
-                        <div class="avatar-placeholder">RK</div>
-                        <div class="author-info">
-                            <h4>Operations Lead</h4>
-                            <p>Field Services Firm</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">"PBS is not an IT vendor; they are strategic business partners. They audited our bottlenecks and built automated workflows that saved us thousands of dollars in admin costs."</p>
+                    <p class="testimonial-text">"PBS built a custom management system that streamlined our operations. Their team took the time to understand our workflow before writing a line of code."</p>
                     <div class="testimonial-author">
                         <div class="avatar-placeholder">AM</div>
                         <div class="author-info">
                             <h4>Managing Director</h4>
-                            <p>Healthcare Services</p>
+                            <p>Healthcare Services Firm</p>
                         </div>
                     </div>
                 </div>
 
                 <div class="testimonial-card">
-                    <div class="testimonial-stars">★★★★★</div>
-                    <p class="testimonial-text">"Their AMC ongoing technical support keeps our automations running smoothly 24/7. Any time we need a new feature, their team responds within hours."</p>
+                    <p class="testimonial-text">"Our school moved completely away from paper chaos into a modern admission system. PBS delivered an intuitive tool that keeps our staff organized."</p>
+                    <div class="testimonial-author">
+                        <div class="avatar-placeholder">DF</div>
+                        <div class="author-info">
+                            <h4>School Administrator</h4>
+                            <p>Divine Fellowship School</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <p class="testimonial-text">"PBS is not an IT vendor—they are strategic partners. Their workflow automation saved our administrative staff hours of manual data entry every week."</p>
                     <div class="testimonial-author">
                         <div class="avatar-placeholder">SP</div>
                         <div class="author-info">
                             <h4>Founder & CEO</h4>
-                            <p>Professional Consultancy</p>
+                            <p>Professional Services Consultancy</p>
                         </div>
                     </div>
                 </div>
@@ -203,26 +196,11 @@
         </div>
     </section>
 
-    <!-- FUTURE GALLERY CARD ARCHITECTURE (HIDDEN IN NAV, READY FOR FUTURE PROJECTS) -->
-    <!--
-    <section class="section-light">
-        <div class="container">
-            <h2>Project Gallery Showcase (Architectural Provision)</h2>
-            <div class="industries-grid">
-                <div class="industry-card">
-                    <h3>Project Showcase Card</h3>
-                    <p>Future project screenshot & visual asset card</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    -->
-
     <!-- CALL TO ACTION BANNER -->
     <section class="section-dark text-center">
         <div class="container">
-            <h2>Want Similar Results for Your Business?</h2>
-            <p class="section-subtitle" style="margin-bottom: 36px;">Schedule a 30-minute discovery call to explore how we can optimize your operational workflow.</p>
+            <h2 style="color: var(--white);">Want Similar Results for Your Organization?</h2>
+            <p class="section-subtitle" style="color: #94A3B8; margin-bottom: 36px;">Schedule a 30-minute discovery call to explore how we can optimize your operational workflow.</p>
             <a href="#" class="btn btn-primary js-calendar-btn">
                 <i class="fa-solid fa-calendar-check"></i> Book a Discovery Call
             </a>
@@ -234,7 +212,7 @@
         <div class="container footer-grid">
             <div>
                 <img src="assets/images/footerlogo.png" alt="Paul Business Solutions" class="footer-logo">
-                <p>Paul Business Solutions designs smarter business systems, CRM implementations, workflow automations, and AI integrations for growing organizations.</p>
+                <p>Paul Business Solutions designs and builds custom business systems, websites, management software, databases, automation, and practical AI solutions.</p>
             </div>
             <div>
                 <h4>Navigation</h4>
@@ -266,6 +244,7 @@
         </div>
     </footer>
 
+    <script src="assets/js/config.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

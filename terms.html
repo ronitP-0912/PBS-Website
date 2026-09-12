@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terms of Use | Paul Business Solutions</title>
-    <meta name="description" content="Terms of Use for Paul Business Solutions governing the use of our website, consulting services, and digital assets.">
+    <meta name="description" content="Terms of Use for Paul Business Solutions (PBS) website and digital services.">
     <link rel="canonical" href="https://paulbizsolutions.com/terms.html">
+    <link rel="icon" href="assets/images/icon.png" type="image/png">
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -14,14 +16,14 @@
 </head>
 <body>
 
-    <!-- HEADER / NAVIGATION -->
-    <header>
-        <div class="container navbar">
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="container nav-container">
             <a href="index.html" class="logo">
-                <img src="assets/images/icon.png" alt="Paul Business Solutions Logo">
+                <img src="assets/images/logo.png" alt="Paul Business Solutions Logo">
             </a>
-
-            <nav class="nav-menu" aria-label="Main Navigation">
+            
+            <nav class="nav-links">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="services.html" class="nav-link">Services</a>
                 <a href="industries.html" class="nav-link">Industries</a>
@@ -32,46 +34,54 @@
 
             <a href="#" class="btn btn-primary js-calendar-btn">Book a Discovery Call</a>
 
-            <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
+
+        <div class="mobile-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="services.html" class="nav-link">Services</a>
+            <a href="industries.html" class="nav-link">Industries</a>
+            <a href="case-studies.html" class="nav-link">Case Studies</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="#" class="btn btn-primary js-calendar-btn">Book a Discovery Call</a>
+        </div>
     </header>
 
-    <!-- MOBILE NAVIGATION DRAWER -->
-    <div class="mobile-nav" aria-label="Mobile Navigation">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="services.html" class="nav-link">Services</a>
-        <a href="industries.html" class="nav-link">Industries</a>
-        <a href="case-studies.html" class="nav-link">Case Studies</a>
-        <a href="about.html" class="nav-link">About</a>
-        <a href="contact.html" class="nav-link">Contact</a>
-        <a href="#" class="btn btn-primary js-calendar-btn" style="margin-top: 16px;">Book a Discovery Call</a>
-    </div>
-
-    <!-- MAIN TERMS CONTENT -->
-    <section class="section-light">
-        <div class="container" style="max-width: 900px;">
+    <!-- CONTENT -->
+    <section style="padding: 64px 0;">
+        <div class="container" style="max-width: 800px;">
             <a href="index.html" class="btn btn-secondary" style="margin-bottom: 24px;">← Back to Home</a>
-            
             <h1>Terms of Use</h1>
-            <p style="color: var(--text-muted); font-style: italic; margin-bottom: 36px;">Last Updated: July 2026</p>
+            <p style="font-size: 0.85rem; color: var(--secondary); margin-bottom: 32px;">Last Updated: September 2026</p>
 
-            <div style="display: flex; flex-direction: column; gap: 24px; line-height: 1.8;">
-                <p>By accessing and using this website, you agree to comply with and be bound by the following Terms of Use. If you do not agree, please do not use this site.</p>
+            <div style="display: grid; gap: 24px;">
+                <div>
+                    <h3>1. Agreement to Terms</h3>
+                    <p>By accessing or using the website of Paul Business Solutions (PBS), you agree to be bound by these Terms of Use and all applicable laws and regulations.</p>
+                </div>
 
-                <h2>1. Consulting Services Information</h2>
-                <p>This website provides information regarding Business Systems & AI Automation consulting services offered by Paul Business Solutions. All content is for informational purposes only and does not constitute a binding operational contract until a formal statement of work (SOW) is executed.</p>
+                <div>
+                    <h3>2. Intellectual Property Rights</h3>
+                    <p>Unless otherwise indicated, the website and its original content, features, functionality, and brand logos are owned by Paul Business Solutions and are protected by applicable copyright, trademark, and intellectual property laws.</p>
+                </div>
 
-                <h2>2. Intellectual Property</h2>
-                <p>All content, branding, logos, graphics, case studies, and proprietary materials displayed on this website are the intellectual property of Paul Business Solutions and may not be reproduced without prior written consent.</p>
+                <div>
+                    <h3>3. Service Terms</h3>
+                    <p>Specific development, software engineering, and consulting engagements will be governed by separate master service agreements (MSA) or statements of work (SOW) executed between PBS and the client.</p>
+                </div>
 
-                <h2>3. Limitation of Liability</h2>
-                <p>Paul Business Solutions shall not be held liable for any direct or indirect damages arising out of the use or inability to use this website or linked third-party booking services.</p>
+                <div>
+                    <h3>4. Limitation of Liability</h3>
+                    <p>Paul Business Solutions shall not be liable for any indirect, incidental, or consequential damages resulting from your use of this website or information contained herein.</p>
+                </div>
 
-                <h2>4. Contact Us</h2>
-                <p>For questions regarding these Terms of Use, contact us at:</p>
-                <p><strong>Email:</strong> <a href="mailto:hello@paulbizsolutions.com">hello@paulbizsolutions.com</a></p>
+                <div>
+                    <h3>5. Governing Law</h3>
+                    <p>These terms shall be governed and construed in accordance with the laws of India, without regard to its conflict of law provisions.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -81,7 +91,7 @@
         <div class="container footer-grid">
             <div>
                 <img src="assets/images/footerlogo.png" alt="Paul Business Solutions" class="footer-logo">
-                <p>Paul Business Solutions designs smarter business systems, CRM implementations, workflow automations, and AI integrations for growing organizations.</p>
+                <p>Paul Business Solutions designs and builds custom business systems, websites, management software, databases, automation, and practical AI solutions.</p>
             </div>
             <div>
                 <h4>Navigation</h4>
@@ -105,7 +115,6 @@
                 <h4>Contact Us</h4>
                 <p><i class="fa-solid fa-envelope"></i> <a href="mailto:hello@paulbizsolutions.com">hello@paulbizsolutions.com</a></p>
                 <p style="margin-top: 10px;"><i class="fa-solid fa-location-dot"></i> Kolkata, India</p>
-                <p style="margin-top: 4px; font-size: 0.8rem; color: #64748B;">Serving clients worldwide</p>
             </div>
         </div>
         <div class="footer-bottom">
@@ -113,6 +122,7 @@
         </div>
     </footer>
 
+    <script src="assets/js/config.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>

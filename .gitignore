@@ -4,8 +4,14 @@
 .LSOverride
 ._*
 
+# Windows / OS
+Thumbs.db
+
 # macOS metadata
 Icon?
+
+# Document files
+*.pages
 
 # Logs
 *.log
@@ -13,3 +19,4 @@ Icon?
 # Temporary files
 *.tmp
 *.temp
+

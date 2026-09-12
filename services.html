@@ -3,17 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consulting Services | CRM, AI & Automation | Paul Business Solutions</title>
-    <meta name="description" content="Explore Paul Business Solutions' consulting services: CRM implementation, business process consulting, workflow automation, AI integration, Google Workspace, software integration, and AMC support.">
+    <title>Services | Paul Business Solutions - Business Systems, Software & AI</title>
+    <meta name="description" content="Explore PBS services: Business Websites, Custom Business Systems, CRM, Databases, Workflow Automation, AI Solutions, Consulting & Support.">
     <link rel="canonical" href="https://paulbizsolutions.com/services.html">
     
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://paulbizsolutions.com/services.html">
-    <meta property="og:title" content="Consulting Services | Paul Business Solutions">
-    <meta property="og:description" content="End-to-end CRM implementation, AI automation, and business system optimization.">
-    <meta property="og:image" content="https://paulbizsolutions.com/assets/images/logo.png">
+    <meta property="og:title" content="PBS Services | Websites, Custom Systems, Automation & AI">
+    <meta property="og:description" content="Custom digital solutions designed and built strictly around your business processes.">
+    <meta property="og:image" content="assets/images/logo.png">
 
+    <!-- Favicon -->
+    <link rel="icon" href="assets/images/icon.png" type="image/png">
+    
+    <!-- Google Fonts & Font Awesome -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -22,14 +26,14 @@
 </head>
 <body>
 
-    <!-- HEADER / NAVIGATION -->
-    <header>
-        <div class="container navbar">
+    <!-- NAVIGATION BAR -->
+    <header class="navbar">
+        <div class="container nav-container">
             <a href="index.html" class="logo">
-                <img src="assets/images/icon.png" alt="Paul Business Solutions Logo">
+                <img src="assets/images/logo.png" alt="Paul Business Solutions Logo">
             </a>
-
-            <nav class="nav-menu" aria-label="Main Navigation">
+            
+            <nav class="nav-links">
                 <a href="index.html" class="nav-link">Home</a>
                 <a href="services.html" class="nav-link active">Services</a>
                 <a href="industries.html" class="nav-link">Industries</a>
@@ -40,227 +44,239 @@
 
             <a href="#" class="btn btn-primary js-calendar-btn">Book a Discovery Call</a>
 
-            <button class="mobile-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <button class="mobile-toggle" aria-label="Toggle Navigation Menu">
                 <i class="fa-solid fa-bars"></i>
             </button>
         </div>
+
+        <div class="mobile-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="services.html" class="nav-link active">Services</a>
+            <a href="industries.html" class="nav-link">Industries</a>
+            <a href="case-studies.html" class="nav-link">Case Studies</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="#" class="btn btn-primary js-calendar-btn">Book a Discovery Call</a>
+        </div>
     </header>
 
-    <!-- MOBILE NAVIGATION DRAWER -->
-    <div class="mobile-nav" aria-label="Mobile Navigation">
-        <a href="index.html" class="nav-link">Home</a>
-        <a href="services.html" class="nav-link active">Services</a>
-        <a href="industries.html" class="nav-link">Industries</a>
-        <a href="case-studies.html" class="nav-link">Case Studies</a>
-        <a href="about.html" class="nav-link">About</a>
-        <a href="contact.html" class="nav-link">Contact</a>
-        <a href="#" class="btn btn-primary js-calendar-btn" style="margin-top: 16px;">Book a Discovery Call</a>
-    </div>
-
-    <!-- SERVICES HERO -->
-    <section class="case-study-hero text-center">
+    <!-- HERO SECTION -->
+    <section class="section-light text-center" style="padding: 64px 0;">
         <div class="container">
-            <span class="hero-badge" style="background: rgba(255,255,255,0.15); color: #fff;">
-                WHAT WE DO
-            </span>
-            <h1 style="color: #fff; margin-top: 16px;">Business System & Automation Services</h1>
-            <p style="color: #94A3B8; max-width: 700px; margin: 16px auto 0; font-size: 1.15rem;">
-                We design, build, and support high-efficiency business infrastructure that removes administrative friction, unifies data, and scales with your revenue.
-            </p>
+            <span class="section-tag">SOLUTIONS & CAPABILITIES</span>
+            <h1>Digital Systems Built Around Your Workflow</h1>
+            <p class="section-subtitle">We select and develop technology based on your exact business requirements—from corporate websites to custom management software and intelligent AI automation.</p>
         </div>
     </section>
 
-    <!-- SERVICES GRID SECTION -->
-    <section class="section-light">
-        <div class="container">
-            <div class="services-grid">
-
-                <!-- SERVICE 1 -->
-                <div class="service-card" id="crm">
-                    <div class="service-icon"><i class="fa-solid fa-cubes"></i></div>
-                    <h3>1. CRM Implementation</h3>
-                    <p>Tailored configuration of top CRM platforms (HubSpot, Zoho, Salesforce, Pipedrive) designed around your team's specific sales & service process.</p>
-                    <ul class="service-deliverables">
-                        <li><i class="fa-solid fa-check"></i> Custom Lead Pipelines & Deal Stages</li>
-                        <li><i class="fa-solid fa-check"></i> Data Migration & Deduplication</li>
-                        <li><i class="fa-solid fa-check"></i> Automated Lead Assignment & Notifications</li>
-                    </ul>
-                    <a href="#crm-detail" class="btn btn-secondary" style="margin-top: auto;">View Service Details</a>
-                </div>
-
-                <!-- SERVICE 2 -->
-                <div class="service-card" id="consulting">
-                    <div class="service-icon"><i class="fa-solid fa-chalkboard-user"></i></div>
-                    <h3>2. Business Process Consulting</h3>
-                    <p>In-depth audit of your current operational bottlenecks, paper-based friction, and software redundancies to design a streamlined operational blueprint.</p>
-                    <ul class="service-deliverables">
-                        <li><i class="fa-solid fa-check"></i> Process Mapping & Workflow Audits</li>
-                        <li><i class="fa-solid fa-check"></i> Standard Operating Procedure (SOP) Creation</li>
-                        <li><i class="fa-solid fa-check"></i> Tech Stack Rationalization</li>
-                    </ul>
-                    <a href="#consulting-detail" class="btn btn-secondary" style="margin-top: auto;">View Service Details</a>
-                </div>
-
-                <!-- SERVICE 3 -->
-                <div class="service-card" id="workflow">
-                    <div class="service-icon"><i class="fa-solid fa-diagram-project"></i></div>
-                    <h3>3. Workflow Automation</h3>
-                    <p>Connect your existing software applications (Make, Zapier, n8n) so data flows automatically between CRM, accounting, inventory, and communication apps.</p>
-                    <ul class="service-deliverables">
-                        <li><i class="fa-solid fa-check"></i> Cross-Platform Data Sync</li>
-                        <li><i class="fa-solid fa-check"></i> Automatic Quote & Invoice Triggering</li>
-                        <li><i class="fa-solid fa-check"></i> Error-Handling & Logs Monitoring</li>
-                    </ul>
-                    <a href="#workflow-detail" class="btn btn-secondary" style="margin-top: auto;">View Service Details</a>
-                </div>
-
-                <!-- SERVICE 4 -->
-                <div class="service-card" id="automation">
-                    <div class="service-icon"><i class="fa-solid fa-robot"></i></div>
-                    <h3>4. AI Automation</h3>
-                    <p>Leverage custom AI agents and Large Language Model integrations to parse incoming emails, extract document data, and automate customer responses.</p>
-                    <ul class="service-deliverables">
-                        <li><i class="fa-solid fa-check"></i> AI Document & PDF Extraction</li>
-                        <li><i class="fa-solid fa-check"></i> Intelligent Customer Inquiry Triage</li>
-                        <li><i class="fa-solid fa-check"></i> Automated Email & Report Drafting</li>
-                    </ul>
-                    <a href="#ai-detail" class="btn btn-secondary" style="margin-top: auto;">View Service Details</a>
-                </div>
-
-                <!-- SERVICE 5 -->
-                <div class="service-card" id="google-workspace">
-                    <div class="service-icon"><i class="fa-solid fa-envelope-open-text"></i></div>
-                    <h3>5. Google Workspace Implementation</h3>
-                    <p>Professional deployment, security configuration, domain migration, and workflow setup using the Google Workspace ecosystem.</p>
-                    <ul class="service-deliverables">
-                        <li><i class="fa-solid fa-check"></i> Google Calendar Scheduling Integration</li>
-                        <li><i class="fa-solid fa-check"></i> Shared Drives & Access Permission Architecture</li>
-                        <li><i class="fa-solid fa-check"></i> Gmail Security & Anti-Phishing Rules</li>
-                    </ul>
-                    <a href="#workspace-detail" class="btn btn-secondary" style="margin-top: auto;">View Service Details</a>
-                </div>
-
-                <!-- SERVICE 6 -->
-                <div class="service-card" id="integration">
-                    <div class="service-icon"><i class="fa-solid fa-network-wired"></i></div>
-                    <h3>6. Software Integration</h3>
-                    <p>Unify fragmented tools into a single cohesive ecosystem using custom API connections, webhooks, and middleware.</p>
-                    <ul class="service-deliverables">
-                        <li><i class="fa-solid fa-check"></i> Custom Webhook & API Handlers</li>
-                        <li><i class="fa-solid fa-check"></i> ERP & Accounting Software Sync (QuickBooks/Xero)</li>
-                        <li><i class="fa-solid fa-check"></i> Bi-Directional Real-Time Data Flow</li>
-                    </ul>
-                    <a href="#integration-detail" class="btn btn-secondary" style="margin-top: auto;">View Service Details</a>
-                </div>
-
-                <!-- SERVICE 7 -->
-                <div class="service-card" id="training">
-                    <div class="service-icon"><i class="fa-solid fa-user-graduate"></i></div>
-                    <h3>7. Training & User Adoption</h3>
-                    <p>Empower your office staff and field team to confidently use new systems with customized training sessions and interactive guides.</p>
-                    <ul class="service-deliverables">
-                        <li><i class="fa-solid fa-check"></i> Live Interactive Training Workshops</li>
-                        <li><i class="fa-solid fa-check"></i> Customized Video Walkthrough Library</li>
-                        <li><i class="fa-solid fa-check"></i> Role-Based Cheat Sheets & Documentation</li>
-                    </ul>
-                    <a href="#training-detail" class="btn btn-secondary" style="margin-top: auto;">View Service Details</a>
-                </div>
-
-                <!-- SERVICE 8 -->
-                <div class="service-card" id="support">
-                    <div class="service-icon"><i class="fa-solid fa-shield-halved"></i></div>
-                    <h3>8. AMC & Ongoing Support</h3>
-                    <p>Proactive system maintenance, pipeline updates, automation monitoring, and dedicated technical helpdesk through an Annual Maintenance Contract (AMC).</p>
-                    <ul class="service-deliverables">
-                        <li><i class="fa-solid fa-check"></i> Proactive System Monitoring & Audits</li>
-                        <li><i class="fa-solid fa-check"></i> Monthly Optimization Adjustments</li>
-                        <li><i class="fa-solid fa-check"></i> Priority Helpdesk Support</li>
-                    </ul>
-                    <a href="#support-detail" class="btn btn-secondary" style="margin-top: auto;">View Service Details</a>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- DETAILED SERVICE COMPONENT BREAKDOWN (REUSABLE STRUCTURE) -->
-    <section id="crm-detail" class="section-light" style="border-top: 1px solid var(--border);">
-        <div class="container">
-            <span class="section-tag">DETAILED BREAKDOWN</span>
-            <h2>CRM Implementation: How We Work</h2>
-            <div class="case-study-grid" style="margin-top: 30px;">
-                <div class="case-study-content" style="padding-left: 0;">
-                    <h3>Business Challenges Addressed</h3>
-                    <p style="margin-bottom: 20px;">SMEs often struggle with scattered lead info in emails, forgotten customer follow-ups, unorganized quotes, and zero visibility into team pipeline performance.</p>
-
-                    <h3>PBS Solution</h3>
-                    <p style="margin-bottom: 20px;">We audit your customer lifecycle and configure a clean CRM structure (HubSpot, Zoho, or Salesforce) with custom pipeline stages, automated reminders, and instant lead capture forms.</p>
-
-                    <h3>Expected Outcomes</h3>
-                    <ul class="service-deliverables">
-                        <li><i class="fa-solid fa-circle-check"></i> 100% lead capture visibility across all marketing channels.</li>
-                        <li><i class="fa-solid fa-circle-check"></i> Up to 35% improvement in sales conversion speed.</li>
-                        <li><i class="fa-solid fa-circle-check"></i> Real-time revenue reporting for company directors.</li>
-                    </ul>
-                </div>
-                <div class="case-study-media">
-                    <h4 style="margin-bottom: 16px;">Implementation Process</h4>
-                    <ol style="display: flex; flex-direction: column; gap: 12px; font-size: 0.95rem;">
-                        <li><strong>Step 1: Discovery & Mapping</strong> - Documenting sales stages.</li>
-                        <li><strong>Step 2: Architecture & Setup</strong> - Configuring custom properties.</li>
-                        <li><strong>Step 3: Migration</strong> - Scrubbing and importing existing data.</li>
-                        <li><strong>Step 4: Testing & Training</strong> - Onboarding office & field staff.</li>
-                        <li><strong>Step 5: Go-Live & Support</strong> - Active monitoring during rollout.</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FREQUENTLY ASKED QUESTIONS -->
+    <!-- SERVICES OVERVIEW CARDS (WITH WORKING ANCHOR LINKS) -->
     <section>
         <div class="container">
-            <div class="text-center" style="margin-bottom: 40px;">
-                <span class="section-tag">FREQUENTLY ASKED QUESTIONS</span>
-                <h2>Services FAQ</h2>
+            <div class="pillars-grid">
+                <!-- Service 1 -->
+                <div class="pillar-card service-card">
+                    <div class="pillar-icon"><i class="fa-solid fa-globe"></i></div>
+                    <h3>Websites & Digital Platforms</h3>
+                    <p>Business websites, WordPress solutions, custom web applications, and web portals built to communicate credibility and capture leads.</p>
+                    <a href="#websites-detail" class="btn btn-secondary" style="margin-top: auto;">
+                        View Service Details <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="pillar-card service-card">
+                    <div class="pillar-icon"><i class="fa-solid fa-cubes"></i></div>
+                    <h3>Custom Business Systems</h3>
+                    <p>Tailored management software, CRMs, inventory tracking, and custom internal tools designed around your proprietary processes.</p>
+                    <a href="#systems-detail" class="btn btn-secondary" style="margin-top: auto;">
+                        View Service Details <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="pillar-card service-card">
+                    <div class="pillar-icon"><i class="fa-solid fa-wand-magic-sparkles"></i></div>
+                    <h3>Automation & AI Solutions</h3>
+                    <p>Practical workflow automation, AI assistants, document processing engines, and intelligent business intelligence.</p>
+                    <a href="#automation-ai-detail" class="btn btn-secondary" style="margin-top: auto;">
+                        View Service Details <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="pillar-card service-card">
+                    <div class="pillar-icon"><i class="fa-solid fa-database"></i></div>
+                    <h3>Database & Information Systems</h3>
+                    <p>Secure relational databases (DBMS), data pipelines, executive dashboards, and centralized information repositories.</p>
+                    <a href="#db-detail" class="btn btn-secondary" style="margin-top: auto;">
+                        View Service Details <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
+
+                <!-- Service 5 -->
+                <div class="pillar-card service-card">
+                    <div class="pillar-icon"><i class="fa-solid fa-comments"></i></div>
+                    <h3>Business Process Consulting</h3>
+                    <p>Operational audits, technology stack evaluation, process mapping, and digital transformation strategy.</p>
+                    <a href="#consulting-detail" class="btn btn-secondary" style="margin-top: auto;">
+                        View Service Details <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
+
+                <!-- Service 6 -->
+                <div class="pillar-card service-card">
+                    <div class="pillar-icon"><i class="fa-solid fa-headset"></i></div>
+                    <h3>Training & Technical Support</h3>
+                    <p>Staff onboarding, system maintenance, software updates, and ongoing technical support agreements.</p>
+                    <a href="#support-detail" class="btn btn-secondary" style="margin-top: auto;">
+                        View Service Details <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
             </div>
-            <div class="accordion">
-                <div class="accordion-item active">
-                    <div class="accordion-header">
-                        How do you determine which CRM or software platform is best for us?
-                        <i class="fa-solid fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- DETAILED SERVICE SECTIONS -->
+    <section class="section-light" style="padding: 48px 0;">
+        <div class="container">
+            
+            <!-- DETAIL 1: WEBSITES & DIGITAL PLATFORMS -->
+            <div id="websites-detail" class="service-detail-block">
+                <span class="section-tag">PILLAR 1</span>
+                <h2>Websites & Digital Platforms</h2>
+                <p style="margin-bottom: 24px;">Your website is often the first operational touchpoint for potential clients. PBS designs and develops business websites, landing pages, and web portals using appropriate technologies strictly chosen for your project—whether WordPress, custom HTML/CSS/JavaScript, or Python web frameworks.</p>
+                
+                <div class="custom-software-grid" style="margin-bottom: 24px;">
+                    <div class="software-item">
+                        <strong style="color: var(--dark);">Business & Corporate Websites</strong>
+                        <p style="font-size: 0.85rem; margin-top: 4px;">High-converting websites that position your firm with trust, clarity, and professionalism.</p>
                     </div>
-                    <div class="accordion-body">
-                        We evaluate your existing team size, process complexity, budget, and integration needs during our discovery audit. We remain platform-agnostic to recommend what actually serves your operational goals best.
+                    <div class="software-item">
+                        <strong style="color: var(--dark);">WordPress Websites</strong>
+                        <p style="font-size: 0.85rem; margin-top: 4px;">Easy-to-manage Content Management Systems (CMS) with custom theme development.</p>
+                    </div>
+                    <div class="software-item">
+                        <strong style="color: var(--dark);">Python & Web Applications</strong>
+                        <p style="font-size: 0.85rem; margin-top: 4px;">Dynamic custom web applications and interactive portals for complex data requirements.</p>
                     </div>
                 </div>
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        Will our non-technical staff be able to adapt to the new system easily?
-                        <i class="fa-solid fa-chevron-down"></i>
+
+                <div style="background: var(--white); border: 1px solid var(--border); padding: 24px; border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+                    <div>
+                        <strong>Key Deliverables:</strong> Responsive HTML5/CSS3/JS, CMS setup, SEO foundation, speed optimization, contact forms.
                     </div>
-                    <div class="accordion-body">
-                        Yes! User adoption is a core pillar of our work. We design simplified interfaces, provide step-by-step role-based documentation, and conduct live interactive training workshops so your staff feels confident.
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <div class="accordion-header">
-                        What does your Ongoing Support (AMC) cover?
-                        <i class="fa-solid fa-chevron-down"></i>
-                    </div>
-                    <div class="accordion-body">
-                        Our AMC covers proactive monitoring of integrations, fixing workflow breaks, adding new pipeline stages or custom fields as your business grows, and priority helpdesk support for your staff.
-                    </div>
+                    <a href="contact.html" class="btn btn-primary">Build My Website</a>
                 </div>
             </div>
+
+            <!-- DETAIL 2: CUSTOM BUSINESS SYSTEMS -->
+            <div id="systems-detail" class="service-detail-block">
+                <span class="section-tag">PILLAR 2</span>
+                <h2>Custom Business Systems & CRM</h2>
+                <p style="margin-bottom: 24px;">Off-the-shelf software often forces you to compromise your workflow. PBS designs and develops custom management systems, tailored CRMs, inventory tools, and billing software built around the exact way your business operates.</p>
+                
+                <div class="custom-software-grid" style="margin-bottom: 24px;">
+                    <div class="software-item">
+                        <strong style="color: var(--dark);">Custom CRM Systems</strong>
+                        <p style="font-size: 0.85rem; margin-top: 4px;">Structured lead management, customer records, quotation pipelines, and history tracking.</p>
+                    </div>
+                    <div class="software-item">
+                        <strong style="color: var(--dark);">Operations Management Software</strong>
+                        <p style="font-size: 0.85rem; margin-top: 4px;">Job dispatching, work order tracking, staff scheduling, and task management tools.</p>
+                    </div>
+                    <div class="software-item">
+                        <strong style="color: var(--dark);">Inventory & Billing Systems</strong>
+                        <p style="font-size: 0.85rem; margin-top: 4px;">Custom billing logic, purchase requisitions, automated invoices, and inventory control.</p>
+                    </div>
+                </div>
+
+                <div style="background: var(--white); border: 1px solid var(--border); padding: 24px; border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+                    <div>
+                        <strong>Key Deliverables:</strong> Database schema, custom UI, role-based access, automated notifications, executive dashboards.
+                    </div>
+                    <a href="contact.html" class="btn btn-primary">Discuss My System</a>
+                </div>
+            </div>
+
+            <!-- DETAIL 3: AUTOMATION & AI -->
+            <div id="automation-ai-detail" class="service-detail-block">
+                <span class="section-tag">PILLAR 3</span>
+                <h2>Automation & AI Solutions</h2>
+                <p style="margin-bottom: 24px;">Eliminate repetitive manual tasks and empower your team with practical AI capabilities. From automatic document extraction to internal knowledge assistants and trigger-based workflows, we deploy AI that yields actual business efficiency.</p>
+                
+                <div class="custom-software-grid" style="margin-bottom: 24px;">
+                    <div class="software-item">
+                        <strong style="color: var(--dark);">Workflow Automation Engines</strong>
+                        <p style="font-size: 0.85rem; margin-top: 4px;">Automated data handoffs, instant status alerts, and background job notifications.</p>
+                    </div>
+                    <div class="software-item">
+                        <strong style="color: var(--dark);">Internal AI Assistants</strong>
+                        <p style="font-size: 0.85rem; margin-top: 4px;">AI assistants trained on company documentation to give staff instant policy and project answers.</p>
+                    </div>
+                    <div class="software-item">
+                        <strong style="color: var(--dark);">Document Intelligence</strong>
+                        <p style="font-size: 0.85rem; margin-top: 4px;">Automatic processing of PDF invoices, client forms, and unstructured text into clean data.</p>
+                    </div>
+                </div>
+
+                <div style="background: var(--white); border: 1px solid var(--border); padding: 24px; border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+                    <div>
+                        <strong>Key Deliverables:</strong> Automated pipelines, AI models/APIs integration, document extraction parsers, error alerts.
+                    </div>
+                    <a href="contact.html" class="btn btn-primary">Explore AI Solutions</a>
+                </div>
+            </div>
+
+            <!-- DETAIL 4: DATABASE & INFORMATION SYSTEMS -->
+            <div id="db-detail" class="service-detail-block">
+                <span class="section-tag">INFORMATION ARCHITECTURE</span>
+                <h2>Database & Information Systems</h2>
+                <p style="margin-bottom: 24px;">Data fragmented across spreadsheets and chat groups leads to missed information and bad decision-making. PBS builds structured relational databases and central dashboards so your information remains clean, accessible, and secure.</p>
+                
+                <div style="background: var(--white); border: 1px solid var(--border); padding: 24px; border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+                    <div>
+                        <strong>Key Deliverables:</strong> Relational database design, data cleaning, migration scripts, executive dashboard visualizations.
+                    </div>
+                    <a href="contact.html" class="btn btn-secondary">Discuss Database Requirements</a>
+                </div>
+            </div>
+
+            <!-- DETAIL 5: CONSULTING -->
+            <div id="consulting-detail" class="service-detail-block">
+                <span class="section-tag">STRATEGY</span>
+                <h2>Business Process Consulting</h2>
+                <p style="margin-bottom: 24px;">Before investing in technology, you must understand your workflow bottlenecks. PBS provides operational audits to evaluate your existing tools, identify inefficiencies, and map out a practical digital system roadmap.</p>
+                
+                <div style="background: var(--white); border: 1px solid var(--border); padding: 24px; border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+                    <div>
+                        <strong>Key Deliverables:</strong> Process audit report, bottleneck analysis, software architecture roadmap, technology ROI evaluation.
+                    </div>
+                    <a href="contact.html" class="btn btn-secondary">Book a Consultation</a>
+                </div>
+            </div>
+
+            <!-- DETAIL 6: SUPPORT -->
+            <div id="support-detail" class="service-detail-block">
+                <span class="section-tag">MAINTENANCE</span>
+                <h2>Training & Technical Support</h2>
+                <p style="margin-bottom: 24px;">A new system is only successful if your team actually uses it. We provide thorough staff onboarding sessions, detailed documentation, and ongoing maintenance support agreements to ensure long-term reliability.</p>
+                
+                <div style="background: var(--white); border: 1px solid var(--border); padding: 24px; border-radius: var(--radius-md); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px;">
+                    <div>
+                        <strong>Key Deliverables:</strong> Staff training webinars/SOPs, security patching, backup verification, priority technical support.
+                    </div>
+                    <a href="contact.html" class="btn btn-secondary">Inquire About Support</a>
+                </div>
+            </div>
+
         </div>
     </section>
 
     <!-- CALL TO ACTION BANNER -->
     <section class="section-dark text-center">
         <div class="container">
-            <h2>Ready to Elevate Your Business Infrastructure?</h2>
-            <p class="section-subtitle" style="margin-bottom: 36px;">Schedule a discovery call with our principal consultant to discuss your specific requirements.</p>
+            <h2 style="color: var(--white);">Unsure Which Service Fits Your Business?</h2>
+            <p class="section-subtitle" style="color: #94A3B8; margin-bottom: 36px;">Schedule a 30-minute discovery call and we will help you define your system requirements.</p>
             <a href="#" class="btn btn-primary js-calendar-btn">
                 <i class="fa-solid fa-calendar-check"></i> Book a Discovery Call
             </a>
@@ -272,7 +288,7 @@
         <div class="container footer-grid">
             <div>
                 <img src="assets/images/footerlogo.png" alt="Paul Business Solutions" class="footer-logo">
-                <p>Paul Business Solutions designs smarter business systems, CRM implementations, workflow automations, and AI integrations for growing organizations.</p>
+                <p>Paul Business Solutions designs and builds custom business systems, websites, management software, databases, automation, and practical AI solutions.</p>
             </div>
             <div>
                 <h4>Navigation</h4>
@@ -304,6 +320,7 @@
         </div>
     </footer>
 
+    <script src="assets/js/config.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
 </html>
